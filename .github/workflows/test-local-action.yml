@@ -1,0 +1,21 @@
+name: Test Local Action
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled, unlabeled]
+
+jobs:
+  test-local-action:
+    name: Test block-pr-by-label action
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run local action
+        uses: ./
+        with:
+          labels: |
+            e2e-block
+            e2e,block

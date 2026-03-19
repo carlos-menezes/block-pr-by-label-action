@@ -1,0 +1,16 @@
+name: "Block PR by Label"
+description: "Fails the workflow if the pull request has any of the specified labels, preventing it from being merged."
+author: "carlos-menezes"
+
+inputs:
+  labels:
+    description: "Newline-delimited labels that should block merging (one label per line)."
+    required: true
+
+runs:
+  using: "node24"
+  main: "dist/index.js"
+
+branding:
+  icon: "slash"
+  color: "red"
