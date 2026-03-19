@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Block PRs with do-not-merge or wip labels
-        uses: carlosmenezes/block-pr-by-label-action@v1
+        uses: carlos-menezes/block-pr-by-label-action@v1
         with:
           labels: |
             do-not-merge
