@@ -23,15 +23,6 @@ jobs:
             wip
 ```
 
-If a label name contains a comma, keep it on a single line so it is parsed correctly:
-
-```yaml
-with:
-  labels: |
-    needs,review
-    security-hold
-```
-
 ## Inputs
 
 | Input    | Required | Description                                                                 |
