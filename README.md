@@ -1,6 +1,6 @@
 # block-pr-by-label-action
 
-A GitHub Action that **fails the workflow** if a pull request has any of the specified labels — preventing it from being merged.
+A GitHub Action that **fails the workflow** if a pull request has any of the specified labels, preventing it from being merged.
 
 ## Usage
 
