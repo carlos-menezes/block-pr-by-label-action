@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "GitHub Action to block PRs from merging if they carry specific labels",
   "main": "dist/index.js",
+  "license":"MIT",
   "author": {
     "name": "Carlos Menezes",
     "url": "https://carlos-menezes.com"
